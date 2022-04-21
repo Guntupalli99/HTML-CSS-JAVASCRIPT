@@ -1,0 +1,13 @@
+section{
+    background-color: darkgreen;
+    width: 800px;
+    height: 600px;
+
+}
+
+div{
+    background-color: rgb(221, 20, 20);
+    width: 200px;
+    height: 40px;
+}
+

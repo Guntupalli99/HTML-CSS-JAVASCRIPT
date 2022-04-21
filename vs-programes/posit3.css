@@ -1,0 +1,23 @@
+.d1{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: absolute;
+
+
+}
+
+.d2{
+    background-color: peru;
+    height: 30px;
+    width: 50px;
+    margin: 2px;
+    
+    position:relative;
+    left:2cm;
+    top: 4px;
+    border-radius: 3cm;
+    text-align: center;
+
+}

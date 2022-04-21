@@ -1,0 +1,16 @@
+
+
+button:hover
+{
+    background-color: #63acb6;
+    color: rgb(206, 34, 34);
+}
+
+a:hover{
+    color:rebeccapurple;
+}
+
+
+div:hover p{
+    background-color: red;
+}

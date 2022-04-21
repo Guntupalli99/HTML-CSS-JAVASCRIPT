@@ -1,0 +1,122 @@
+/* label.f {
+    margin-left: 20px;
+}
+
+label.s {
+    margin-left: 20px;
+}
+
+label.r {
+    margin-left: 50px;
+}
+
+label.e {
+    margin-left: 10px;
+} */
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+/* input {
+    white-space: nowrap;
+} */
+
+/* .dist {
+    margin-left: 30px;
+}
+
+.state {
+    margin-left: 20px;
+} */
+
+
+html {
+    display: flex;
+    justify-content: center;
+    overflow: ;
+
+
+
+    /* width: 100%; */
+
+}
+
+.center {
+    width: auto;
+    background-image: url(fs5.jpg);
+}
+
+.skill {
+    display: block;
+}
+
+.one {
+    display: block;
+
+
+
+}
+
+.two {
+    display: block;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+.box,
+.box2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.fs {
+    position: static;
+}
+
+#det {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+}
+
+#button1 {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+    /* left: 0px; */
+}
+
+#button2 {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+    /* left: 0px; */
+}
+
+#button3 {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+    /* left: 0px; */
+}
+
+
+
+#button4 {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+}
+
+
+#button5 {
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+}

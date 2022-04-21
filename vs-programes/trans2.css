@@ -1,0 +1,23 @@
+a{
+    color:green;
+    transition: font-size 2s;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: silver;
+    margin:1cm;
+    transition: width 2s,height 2s;
+
+}
+
+body:hover div{
+    width: 500px;
+    height: 500px;
+
+}
+
+a:hover{
+    font-size:  500px;
+}

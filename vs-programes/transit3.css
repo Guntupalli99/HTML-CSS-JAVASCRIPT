@@ -1,0 +1,25 @@
+div{
+    background-color: #22cece;
+    width: 100px;
+    height: 100px;
+    margin:1cm;
+    transition: width 3s,height 3s ,transform 3s;
+    display:inline-block;
+}
+
+div:hover{
+    width:300px;
+    height: 300px;
+
+   /* transition: linear;*/
+   /* transition: ease;
+   transition:ease-in;
+   transition: ease-in-out;
+   transition: ease-out; */
+
+    /* transition-delay: 2s; */
+    
+transform: rotate(360deg);
+
+
+}

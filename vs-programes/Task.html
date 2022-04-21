@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Task.css">
+    <script src="task.js"></script>
+    <h1 style="text-align:center;">VINCLOUD SOLUTIONS</h1>
+
+</head>
+
+<body class="center">
+
+    <form>
+        <div>
+            <fieldset>
+                <legend>Details</legend>
+                <button type="button" onclick="open1()" id="button1">+/-</button>
+                <div id="btn1">
+                    <label for="firstname" class="f"> First Name:</label>
+                    <input type="text" id="firstname"><br><br>
+
+                    <label for="lastname" class="s">Last Name:</label>
+                    <input type="text" id="lastname"><br><br>
+
+                    <label for="phnum" class="no">Phone Number:</label>
+                    <input type="number" id="phnum"><br>
+                </div>
+            </fieldset>
+        </div>
+
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>Company Details</legend>
+            <button type="button" onclick="open2()" id="button2">+/-</button>
+
+
+            <div id="btn2">
+                <label for="org" class="o">Organization:</label>
+                <input type="text" id="org"><br><br>
+
+                <label for="role" class="r">Role:</label>
+                <input type="text" id="role"><br><br>
+
+                <label for="exp" class="e">Experience:</label>
+                <select class="exp" id="exp">
+                    <option>choose one</option>
+                    <option value="0">0 year</option>
+                    <option value="1">1 year</option>
+                    <option value="2">2 years</option>
+                    <option value="3">3 years</option>
+                    <option value="4">4 years</option>
+                    <option value="5">5 years</option>
+                    <option value="6">6 years</option>
+                    <option value="7">7 years</option>
+                    <option value="8">8 years</option>
+                    <option value="9">9 years</option>
+                    <option value="10">10+ years</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+
+
+
+
+    <from>
+        <fieldset>
+            <legend>Address</legend>
+
+            <button type="button" onclick="open3()" id="button3">+/-</button>
+            <div id="btn3">
+                <label for="Add1" class="Add1">Address1:</label>
+                <input type="text" id="Addi"><br><br>
+
+                <label for="Add2" calss="Add2">Address2:</label>
+                <input type="text" id="Add2"><br><br>
+
+                <label for="dist" class="dist">Dist:</label>
+                <input type="text" id="text"><br><br>
+
+
+                <label for="state" class="state">State:</label>
+                <input type="text" id="state"><br><br>
+
+                <label for="num" class="num">Pin Code:</label>
+                <input type="number" id="num"><br><br>
+            </div>
+        </fieldset>
+    </from>
+
+
+    <form class="skill">
+        <fieldset id="fieldset">
+            <legend>Skills:</legend>
+            <button type="button" id="button4" onclick="open4()">+/-</button>
+
+            <div id="btn4">
+                <div class="group">
+                    <div class="box">
+                        <label> <input type="checkbox" id="c">C</label>
+                        <label><input type="checkbox" id="c+">C++</label>
+                        <label><input type="checkbox" id="C#"> C#</label>
+                        <label><input type="checkbox" id="java">Java</label>
+                        <label><input type="checkbox" id="pyth">Python</label>
+                        <label><input type="checkbox" id="html">Html</label>
+                    </div>
+                    <div class="box2">
+                        <label><input type="checkbox" id="css"> CSS</label>
+                        <label><input type="checkbox" id="javasc">JavaScript</label>
+                        <label><input type="checkbox" id="reac">React</label>
+                        <label><input type="checkbox" id="ai"> AI</label>
+                        <label><input type="checkbox" id="iot"> IoT</label>
+                        <label><input type="checkbox" id="ds">DataScience</label>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
+
+    <form id="info">
+        <fieldset id="fs">
+
+            <legend>Additional Information</legend>
+            <button type="button" onclick="open5()" id="button5">+/-</button>
+
+            <div id="btn5">
+
+
+                <label for="text" class="comm" id="cm">Comments:</label><br>
+                <textarea id="comments"></textarea>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
